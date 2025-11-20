@@ -20,7 +20,7 @@ A comprehensive guide for GitHub collaborators to understand when and how to use
 
 ## When to Use Varda 2.0
 
-### ✅ Use Varda 2.0 When:
+###  Use Varda 2.0 When:
 
 #### 1. **You Have Too Many Factors (The "Factor Zoo" Problem)**
 - You have 50+ factors and need to compress them to 5-15 core risk channels
@@ -60,7 +60,7 @@ A comprehensive guide for GitHub collaborators to understand when and how to use
 
 ---
 
-### ❌ Don't Use Varda 2.0 When:
+### Don't Use Varda 2.0 When:
 
 1. **Simple Factor Models Suffice**
    - You have <10 factors and traditional regression works fine
@@ -282,10 +282,10 @@ info_content = varda2.evaluate_factor_information_content(
 )
 
 if info_content["is_zoo_animal"]:
-    print(f"❌ REDUNDANT: Similar to {info_content['most_redundant_factor']}")
+    print(f" REDUNDANT: Similar to {info_content['most_redundant_factor']}")
     print(f"   Redundancy: {info_content['max_redundancy_with_core']:.2%}")
 else:
-    print(f"✅ INDEPENDENT: Marginal ES change: {info_content['marginal_es_change']:.4f}")
+    print(f" INDEPENDENT: Marginal ES change: {info_content['marginal_es_change']:.4f}")
 ```
 
 ### Workflow 3: Compress Factor Zoo
@@ -359,7 +359,7 @@ pipeline_eval = varda2.evaluate_factor_for_pipeline(
 )
 
 if pipeline_eval["matters_for_pipeline"]:
-    print(f"✅ Affects {pipeline_eval['n_deals_significantly_affected']} deals")
+    print(f" Affects {pipeline_eval['n_deals_significantly_affected']} deals")
     print(f"   Total fee-at-risk change: ${pipeline_eval['total_fee_at_risk_change']:,.2f}")
 ```
 
