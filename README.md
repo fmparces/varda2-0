@@ -66,4 +66,3 @@ To run stress tests:
 
 * `python varda_2_0_stress_test.py`
 
-You can copy and paste this entire section directly into your Word document.
