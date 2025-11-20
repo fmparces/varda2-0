@@ -48,7 +48,6 @@
 
 - Start here: [QUICK_START.md](QUICK_START.md)  
 - Learn usage: [USAGE_GUIDE.md](USAGE_GUIDE.md)  
-- Deep dive: [VARDA_2_0_README.md](VARDA_2_0_README.md)  
 - Understand methodology: [VARDA_2_0_METHODOLOGY.md](VARDA_2_0_METHODOLOGY.md)  
 
 To run examples:
