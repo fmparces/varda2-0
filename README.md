@@ -35,8 +35,7 @@
 ### Documentation
 - [README.md](README.md) – Main overview (with guide links)  
 - [QUICK_START.md](QUICK_START.md) – Quick start guide  
-- [USAGE_GUIDE.md](USAGE_GUIDE.md) – How to use and when to use Varda 2.0  
-- [VARDA_2_0_README.md](VARDA_2_0_README.md) – Full documentation (23 KB)  
+- [USAGE_GUIDE.md](USAGE_GUIDE.md) – How to use and when to use Varda 2.0   
 - [VARDA_2_0_METHODOLOGY.md](VARDA_2_0_METHODOLOGY.md) – Methodology and model details (15 KB)  
 
 ### Configuration
