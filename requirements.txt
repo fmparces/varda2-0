@@ -1,0 +1,18 @@
+# Core scientific libraries
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+matplotlib>=3.7
+seaborn>=0.13
+
+# Model persistence & performance
+joblib>=1.3
+
+# Data access (optional, for finance)
+yfinance>=0.2
+
+# Model explainability
+shap>=0.44
+
+# Logging & reproducibility
+tqdm>=4.66
